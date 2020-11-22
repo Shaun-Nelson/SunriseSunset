@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #8307ff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sunrise,
+.sunset {
+  color: #ff8307;
+  padding: 50px;
+  margin: 30px;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  text-shadow: #e67607e8;
+}
+
+.attribution {
+  margin-top: 20vh;
+  font-size: 1rem;
+  padding: 5px;
+  font-family: "Lato", sans-serif;
+}
