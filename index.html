@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Sunrise Sunset</title>
 </head>
 <body>
@@ -18,6 +18,8 @@
                 <path d="M12 9v-6l3 3m-6 0l3 -3" />
             </svg>
             <h3>Sunrise</h3>
+            <div id="sunrise-time">
+            </div>
         </div>
         <div id="sunset" class="sunset">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sunshine" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -27,10 +29,8 @@
                 <path d="M12 3v6l3 -3m-6 0l3 3" />
             </svg>
             <h3>Sunset</h3>
+            <div id="sunset-time"></div>
         </div>
-    </div>
-    <div id="attribution" class="attribution">
-        <a href="https://sunrise-sunset.org/api" target="_blank">Sunrise Sunset API</a>
     </div>
     <script src="app.js"></script>
 </body>

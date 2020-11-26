@@ -1,7 +1,14 @@
+:root {
+  --primary-color: #ff8307;
+  --secondary-color: #e67607e8;
+  --bg-color: #8307ff;
+}
+
 * {
   margin: 0;
   padding: 0;
-  background: #8307ff;
+  background: var(--bg-color);
+  font-family: "Lato", sans-serif;
 }
 
 .container {
@@ -12,18 +19,14 @@
 
 .sunrise,
 .sunset {
-  color: #ff8307;
-  padding: 50px;
-  margin: 30px;
-  font-size: 2rem;
-  font-family: "Lato", sans-serif;
+  color: var(--primary-color);
+  padding: 10px;
+  font-size: 2em;
   text-align: center;
-  text-shadow: #e67607e8;
+  text-shadow: var(--secondary-color);
+  width: 175px;
 }
 
-.attribution {
-  margin-top: 20vh;
-  font-size: 1rem;
-  padding: 5px;
-  font-family: "Lato", sans-serif;
+h3 {
+  margin: 0;
 }
