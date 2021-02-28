@@ -6,11 +6,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script type="module" src="./app.js"></script>
     <title>Sunrise Sunset</title>
 </head>
 <body>
     <div class="container">
-        <div id="sunrise" class="sunrise">
+        <div class="sunrise">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sunset" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M3 17h1m16 0h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7m-9.7 5.7a4 4 0 0 1 8 0" />
@@ -18,10 +19,9 @@
                 <path d="M12 9v-6l3 3m-6 0l3 -3" />
             </svg>
             <h3>Sunrise</h3>
-            <div id="sunrise-time">
-            </div>
+            <div id="sunrise-time"></div>
         </div>
-        <div id="sunset" class="sunset">
+        <div class="sunset">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sunshine" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M3 17h1m16 0h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7m-9.7 5.7a4 4 0 0 1 8 0" />
@@ -32,6 +32,5 @@
             <div id="sunset-time"></div>
         </div>
     </div>
-    <script src="app.js"></script>
 </body>
 </html>
